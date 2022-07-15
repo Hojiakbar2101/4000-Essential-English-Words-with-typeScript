@@ -1,7 +1,8 @@
+import { essential } from "./books/essential/essential";
 function App() {
-  return <div className="App">
-    Hello world
-  </div>;
+  console.log(essential);
+
+  return <div className="App">Books</div>;
 }
 
 export default App;
